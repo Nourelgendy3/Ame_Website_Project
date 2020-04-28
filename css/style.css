@@ -167,6 +167,9 @@ button, a, a.btn, .fas{
 
 
 /*============= FEATURES SECTION =============*/
+.btn {
+ padding-bottom: .5rem;
+}
 .btn-sm {
    border-width: medium;
    border-radius: 0;
@@ -344,28 +347,7 @@ ul.social li a:hover {
 /*--- Team Light Background Image --*/
 
 
-/*============= SKILLS SECTION =============*/
 
-
-/*============= CLIENTS SECTION =============*/
-#adoptionTips-carousel {
-   max-width: 1200px;
-   margin: 0 auto;
-}
-.adoptionTips img {
-   border-radius: 50%;
-   transition: transform .3s ease;
-}
-.adoptionTips img:hover {
-   transform: scale(.95);
-}
-blockquote .fas {
-   margin: 1rem;
-   color: #1EBBA3;
-}
-.clients-hr {
-   border-top: .1rem solid #1EBBA3;
-}
 
 
 /*============= CONTACT SECTION =============*/
