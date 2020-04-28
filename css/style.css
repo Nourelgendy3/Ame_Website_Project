@@ -119,7 +119,7 @@ button, a, a.btn, .fas{
 .caption {
    z-index: 1;
    position: absolute;
-   top: 38%;
+   top:10%;
    width: 100%;
    max-width: 100%;
 }
@@ -139,7 +139,9 @@ button, a, a.btn, .fas{
    padding: .8rem 1.5rem;
    font-size: 1.1rem;
 }
-
+.navbar-brand {
+   color:white;
+}
 /*-- Bouncing Down Arrow --*/
 .arrow {
    position: absolute;
