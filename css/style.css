@@ -126,8 +126,8 @@ button, a, a.btn, .fas{
 /*-- Landing Page Caption --*/
 .caption {
    z-index: 1;
-   position: absolute;
-   top:10%;
+   position: fixed;
+   top:38%;
    width: 100%;
    max-width: 100%;
 }
@@ -135,7 +135,7 @@ button, a, a.btn, .fas{
    font-size:4.5rem ;
    letter-spacing: .3rem;
    text-shadow: .1rem .1rem .8rem black;
-   padding-bottom: 1rem; 
+   
 }
 .caption h3 {
    font-size: 2.5rem;
@@ -147,27 +147,11 @@ button, a, a.btn, .fas{
    padding: .8rem 1.5rem;
    font-size: 1.1rem;
 }
+
+
 .navbar-brand {
    color:white;
 }
-/*-- Bouncing Down Arrow --*/
-.arrow {
-   position: absolute;
-   bottom: 0;
-   width: 100%;
-   animation: bounce 2s infinite;
-   -webkit-animation: bounce 2s infinite ;
-}
-.down-arrow .fas {
-   color:white;
-   font-size: 2rem;
-   width:100%;
-   opacity:.5;
-}
-.down-arrow .fas:hover {
-   opacity:.9;
-}
-
 
 /*============= FEATURES SECTION =============*/
 .btn {
@@ -391,20 +375,38 @@ ul.social li a:hover {
 /*============= REVIEW.HTML =============*/
 
 
-/*============= TOP SCROLL =============*/
 
 
-/*============= MEDIA QUERIES =============*/
+/*============= MEDIA QUERIES from getbootstrap page =============*/
 
 /* Devices under 992px (lg) */
+@media (max-width:991.98px){
+   .caption h1 {
+      font-size:3.5rem ;
+      letter-spacing: .2rem; 
+      padding-bottom: .8rem; 
+   }
+   .caption h3 {
+      font-size: 2.2rem;
+      padding-bottom: 1.7rem;
+   }
+   .caption .btn-lg {
+      padding: .7rem 1.2rem;
+      font-size: 1rem;
+   }
 
+}
 
 /* Devices under 768px (md) */
+@media (max-width:767.98px){
 
+}
 
 /* Devices under 576px (sm) */
 
+@media (max-width:575.98px){
 
+}
 
 /*============ BOOTSTRAP BREAK POINTS:
 
