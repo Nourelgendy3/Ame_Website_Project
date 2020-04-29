@@ -47,6 +47,12 @@ $(function () {
 $('.popover-dismiss').popover({
     trigger: 'focus'
 });
+/* Alert */
+$(document).ready(function(){
+    $('button').click(function(){
+        $('.alert').show()
+    }) 
+});
 
 /*========== BOUNCING DOWN ARROW ==========*/
 $(document).ready(function () {
