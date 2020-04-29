@@ -36,6 +36,9 @@ html,body{
 
 
 /*============= NAVIGATION =============*/
+.navbar-brand:hover {
+   color: white;
+}
 .navbar-brand img{
    height: 2rem ;
    
@@ -343,6 +346,25 @@ ul.social li a:hover {
    color: #505962;
 }
 
+.social2{
+   list-style-type: none;
+   padding:0;
+   margin: 0;
+   font-size: 3rem;
+}
+ul.social2 li{
+   display: inline;
+   padding-right: .8rem;
+   margin-left: .5rem;
+}
+ul.social2 li a {
+   color: #52c6ca;
+   transition: all .2s ease;
+}
+ul.social2 li a:hover {
+   color: #505962;
+}
+
 
 /*--- Team Light Background Image --*/
 
@@ -351,9 +373,24 @@ ul.social li a:hover {
 
 
 /*============= CONTACT SECTION =============*/
+.footer {
+  color: white;
+   background: url('../img/footer/footer.jpg');
+   background-size: cover;
 
-
+}
+.footer img {
+   padding: 2rem;
+   justify-content: center;
+   margin-top:1.5rem,0;
+}
+.row.outer {
+   background-color: rgba(57,63,70,.85);
+   padding: 1rem 2rem 3rem;
+}
 /*--- Contact Form --*/
+
+/*============= REVIEW.HTML =============*/
 
 
 /*============= TOP SCROLL =============*/
