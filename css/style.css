@@ -338,10 +338,40 @@ ul.social li a:hover {
 
 /*--- Team Light Background Image --*/
 
-
-
-
-
+/*============= dropdown SECTION =============*/
+/*--- Drop-down Menu --*/
+.dropdown-menu, .dropdown-item {
+   font-size: .9rem;
+   font-weight: 700!important;
+   background-color: transparent!important;
+   border: 0;
+   color: white;
+ }
+.dropdown-menu.show {
+   margin-top: .75rem!important;
+   border-radius: 0;
+   transition: background-color .5s ease 0s;
+ }
+ .dropdown-submenu {
+   transition: background-color .5s ease 0s;
+ }
+ .dropdown-menu.no-space-top {
+   margin-top: 0!important;
+ }
+ .dropdown-menu:hover, .dropdown-item:hover,
+ .dropdown-menu:focus, .dropdown-item:focus,
+ .dropdown-toggle:active, .dropdown-toggle:focus {
+   color: #52c6ca!important;
+ }
+ .dropdown-submenu.solid,
+ .dropdown-menu.show.solid {
+   background: rgba(0, 0, 0, 0.7)!important;
+   transition: background-color 1s ease 0s;
+ }
+ .dropdown-submenu > .dropdown-menu {
+   width: 100%;
+   margin-top: 0!important;
+ }
 /*============= CONTACT SECTION =============*/
 .footer {
   color: white;

@@ -1,3 +1,49 @@
+/*==========  DROP DOWN MENU ==========*/
+$(document).ready(function () {
+    var DELAY = 700, clicks = 0, timer = null;
+  
+    // On click or double click
+    $("nav ul li.dropdown a.dropdown-toggle")
+        .on("click", function (e) {
+            clicks++;
+            if (clicks === 1) {
+                timer = setTimeout(function () {
+                    clicks = 0;
+                }, DELAY);
+            } else {
+                clearTimeout(timer);
+                $('.dropdown-menu').removeClass('show');
+                $('html, body').animate({ //animate window scrolling (on click of "#" link)
+                    scrollTop: $($.attr(this, 'href')).offset().top //when scrolling to link destination
+                }, 1000);
+                clicks = 0;
+            }
+        })
+        .on("dblclick", function (e) {
+            e.preventDefault();
+        });
+  
+    //mulit-level menu
+    $("ul.dropdown-menu [data-toggle='dropdown']").on("click", function (event) {
+        event.preventDefault();
+        event.stopPropagation();
+  
+        $(this).siblings().toggleClass("show");
+  
+        if (!$(this).next().hasClass('show')) {
+            $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
+        }
+        $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function (e) {
+            $('.dropdown-submenu .show').removeClass("show");
+        });
+  
+    });
+});
+
+
+
+
+
 /*========== NAVBAR TRANSPARENT TO SOLID ==========*/
 $(document).ready(function () { //when document(DOM) loads completely
     checkScroll(); //check if page is scrolled
@@ -59,12 +105,6 @@ $('#myModal').on('shown.bs.modal', function () {
     $('#myInput').trigger('focus')
   })
 
-/*========== BOUNCING DOWN ARROW ==========*/
-$(document).ready(function () {
-    $(window).scroll(function () {
-        $('.arrow').css('opacity', 1 - $(window).scrollTop() / 250);
-    });
-});
 
 
 /*========== LIGHTBOX IMAGE GALLERY ==========*/
@@ -155,49 +195,3 @@ $(function () { // a self calling function
 });
 
 
-/*========== CONTACT FORM INPUT VALIDATION ==========*/
-//Original Resource: https://bootstrapious.com/p/how-to-build-a-working-bootstrap-contact-form
-$(function () {
-
-  // init the validator
-  // validator files are included in the download package
-  // otherwise download from http://1000hz.github.io/bootstrap-validator
-
-  $('#contact-form').validator();
-
-
-  // when the form is submitted
-  $('#contact-form').on('submit', function (e) {
-
-      // if the validator does not prevent form submit
-      if (!e.isDefaultPrevented()) {
-          var url = "contact/contact.php";
-
-          // POST values in the background the the script URL
-          $.ajax({
-              type: "POST",
-              url: url,
-              data: $(this).serialize(),
-              success: function (data) {
-                  // data = JSON object that contact.php returns
-
-                  // we recieve the type of the message: success x danger and apply it to the
-                  var messageAlert = 'alert-' + data.type;
-                  var messageText = data.message;
-
-                  // let's compose Bootstrap alert box HTML
-                  var alertBox = '<div class="alert ' + messageAlert + ' alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>' + messageText + '</div>';
-
-                  // If we have messageAlert and messageText
-                  if (messageAlert && messageText) {
-                      // inject the alert to .messages div in our form
-                      $('#contact-form').find('.messages').html(alertBox);
-                      // empty the form
-                      $('#contact-form')[0].reset();
-                  }
-              }
-          });
-          return false;
-      }
-  })
-});
