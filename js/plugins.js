@@ -53,6 +53,11 @@ $(document).ready(function(){
         $('.alert').show()
     }) 
 });
+/* Modal */
+
+$('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').trigger('focus')
+  })
 
 /*========== BOUNCING DOWN ARROW ==========*/
 $(document).ready(function () {
