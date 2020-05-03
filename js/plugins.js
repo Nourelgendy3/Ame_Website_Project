@@ -103,7 +103,18 @@ $(document).ready(function(){
 
 $('#myModal').on('shown.bs.modal', function () {
     $('#myInput').trigger('focus')
-  })
+});
+/* Alerts */
+$('#Addmsg').on('click', function () {
+    $.alert('Successfully added', {
+        autoClose: false,
+       
+         
+        
+  });
+  });
+
+
 
 
 
