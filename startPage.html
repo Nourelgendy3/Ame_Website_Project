@@ -386,7 +386,7 @@
 							<div class="card">
 								<img src="img/team/team0.png" alt="" class="card-img-top rounded-0">
 								<div class="card-body">
-									<h4 class="font-weight-bold">Ahmad sabry</h4>
+									<h4 class="font-weight-bold">Ahmad Sabry</h4>
 									<h5 class="text-nuno">President</h5>
 									<p class="border-top border-bottom py-3 my-3">Ahmad has over 10 years of experience in a technology role and he has his own shelter.</p>
 									<ul class="social">
@@ -416,7 +416,7 @@
 							<div class="card">
 								<img src="img/team/team0.png" alt="" class="card-img-top rounded-0">
 								<div class="card-body">
-									<h4 class="font-weight-bold">Mostafa Mohamed</h4>
+									<h4 class="font-weight-bold">Safwan Mohammed</h4>
 									<h5 class="text-nuno">CFO</h5>
 									<p class="border-top border-bottom py-3 my-3">Mostafa has an established financial operations background. he adopted more than 24 cats</p>
 									<ul class="social">
@@ -518,14 +518,16 @@
 
 
 	<!-- Start Contact Section -->
+	<div class="footer-section">
+		<div class="container">
 	<div id="contact" class="offset">
 
-		<div class="container-fluid footer px-0">
+		
 			<div class="row outer">
 				<div class="container">
 					<div class="row py-3">
-						<div class="col-md-5 px-0 pr-md-3">
-							<img src="img/pic104_icon.ico" alt""">
+						<div class="col-md-5 px-0 pr-md-3"></div>
+							
 							
 
 
@@ -533,7 +535,7 @@
 
 
 						<div class="col-md-7 px-0  pl-md-3">
-							<h3>Contact Us</h3>
+							<h3 style="color:white">Contact Us</h3>
 							<div class="input-group input-group-sm mb-3">
 								<div class="input-group-prepend">
 								  <span class="input-group-text">Enter Your Name</span>
@@ -548,12 +550,83 @@
 								<textarea class="form-control" aria-label="With textarea"></textarea>
 							 </div>
 							 <div class="form-group pb-4" >
-								<label for="exampleFormControlTextarea1"> Add Your Message/Adoption Request Here </label>
+								<label for="exampleFormControlTextarea1" style="color:white"> Add Your Message/Adoption Request Here </label>
 								<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 							 </div>
-<div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
+<div class="btn-group btn-group-sm pb-5" role="group" aria-label="Basic example">
 
-  <button type="button" class="btn btn-ame ">Send Your Message/Adoption Request</button>
+  <button type="button" class="btn btn-ame " data-toggle="modal" data-target="#staticBackdrop">Send Your Message/Adoption Request</button>
+  <div class="modal fade" id="staticBackdrop" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+	  <div class="modal-content">
+		 <div class="modal-header">
+			<h5 class="modal-title" id="staticBackdropLabel" style="color: grey">Please Fill These Data First</h5>
+			
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			  <span aria-hidden="true">&times;</span>
+			</button>
+		 </div>
+		 <div class="modal-body" style="color: gray">
+			<form>
+				<div class="form-row">
+				  <div class="form-group col-md-6">
+					 <label for="inputEmail4">Preferred Pet</label>
+					 <input type="email" class="form-control" id="inputEmail4">
+				  </div>
+				  <div class="form-group col-md-6">
+					 <label for="inputPassword4">Preferred Pet Gender</label>
+					 <input type="password" class="form-control" id="inputPassword4">
+				  </div>
+				</div>
+				<div class="form-group">
+				  <label for="inputAddress">Address</label>
+				  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+				</div>
+				<div class="form-group">
+				  <label for="inputAddress2">Address 2</label>
+				  <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+				</div>
+				<div class="form-row">
+				  <div class="form-group col-md-6">
+					 <label for="inputCity">City</label>
+					 <input type="text" class="form-control" id="inputCity">
+				  </div>
+				  <div class="form-group col-md-4">
+					 <label for="inputState">State</label>
+					 <select id="inputState" class="form-control">
+						<option selected>Choose...</option>
+						<option>Cairo</option>
+						<option>Alexandria</option>
+						<option>...</option>
+					 </select>
+				  </div>
+				  <div class="form-group col-md-2">
+					 <label for="inputZip">Zip</label>
+					 <input type="text" class="form-control" id="inputZip">
+				  </div>
+				</div>
+				<div class="form-group">
+				  <div class="form-check">
+					 <input class="form-check-input" type="checkbox" id="gridCheck">
+					 <label class="form-check-label" for="gridCheck">
+						Check me out
+					 </label>
+				  </div>
+				</div>
+				<button type="button" class="btn btn-secondary" data-toggle="popover" title="Popover title" data-content="your data is being sent to us and we will send you an email soon, thanks for interaction">Send data</button>
+				<button class="btn btn-primary" type="button" disabled>
+					<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+					<span class="sr-only">Loading...</span>
+				 </button>
+			 </form>
+		 </div>
+		 <div class="modal-footer">
+			<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			<button type="button" class="btn btn-primary">Understood</button>
+		 </div>
+	  </div>
+	</div>
+ </div>
   <a class="btn btn-light" href="reviews.html" role="button">See Our Reviews</a>
   <button type="button" class="btn btn-ame" data-toggle="modal" data-target="#exampleModal">Get More Adoption Tips</button>
   <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -575,8 +648,31 @@
  
 </div>
 
-
+<div class="copyright"><p>
+	Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved </p></div>
+	
+		 </div>
+		 <div class="social-links-warp">
+			 <div class="container">
+				 <div class="social-links">
+					 <a href="#"><i class="fa fa-instagram"></i><span>instagram</span></a>
+					 <a href="#"><i class="fa fa-pinterest"></i><span>pinterest</span></a>
+					 <a href="#"><i class="fa fa-facebook"></i><span>facebook</span></a>
+			 
+			  
+			</div>
 						</div>
+						<nav aria-label="Page navigation example">
+							<ul class="pagination d-flex justify-content-end">
+							  <li class="page-item">
+								 <a class="page-link" href="homePage.html"
+								 style="color: #52c6ca">Previous</a>
+							  </li>
+							  <li class="page-item">
+								 <a class="page-link" href="reviews.html "style="color: #52c6ca">Next</a>
+							  </li>
+							</ul>
+						 </nav>
 
 					</div><!--end row-->
 				</div><!--end container-->
@@ -587,20 +683,12 @@
 		</div>
 		
 	</div>
-	<nav aria-label="Page navigation example">
-      <ul class="pagination d-flex justify-content-end">
-        <li class="page-item">
-			 <a class="page-link" href="homePage.html"
-			 style="color: #52c6ca">Previous</a>
-        </li>
-        <li class="page-item">
-          <a class="page-link" href="reviews.html "style="color: #52c6ca">Next</a>
-        </li>
-      </ul>
-    </nav>
+	
+	
 	<!-- End Contact Section -->
 
-
+</div>
+</div>
 	
 
 	<!-- Script Source Files -->

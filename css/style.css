@@ -373,41 +373,82 @@ ul.social li a:hover {
    margin-top: 0!important;
  }
 /*============= CONTACT SECTION =============*/
-.footer {
-  color: white;
-   background: url('../img/footer/footer-mobile.jpg');
-   background-size: cover;
 
-}
-.footer2 img {
-   padding: 2rem;
-   justify-content: center;
-   margin-top:1.5rem,0;
-}
-.row.outer {
-   background-color: rgba(57,63,70,.85);
-   padding: 1rem 2rem 3rem;
-}
-.footer2 {
-   color: white;
-    background: url('../img/review1.jpg');
-    background-size: cover;
- 
- }
- .footer2 img {
-    padding: 2rem;
-    justify-content: center;
-    margin-top:1.5rem,0;
- }
- .row.outer {
-    background-color: rgba(57,63,70,.85);
-    padding: 1rem 2rem 3rem;
- }
 /*--- Contact Form --*/
 
 /*============= REVIEW.HTML =============*/
+/* ----------------
+Footer section
+ ---------------------*/
+
+ .footer-section {
+	background: #505962;
+	padding-top: 73px;
+}
 
 
+
+.copyright {
+	color: white;
+	font-size: 16px;
+	padding: 35px 0 30px;
+}
+
+.copyright a {
+	color: #52c6ca;
+}
+
+.copyright a:hover {
+	color: #10ddb4;
+}
+
+.copyright i {
+	color: #a51111;
+}
+
+.social-links-warp {
+	border-top: 1px solid #363636;
+	padding: 45px 0;
+}
+
+.social-links a {
+	margin-right: 104px;
+	display: inline-block;
+}
+
+.social-links a:last-child {
+	margin-right: 0;
+}
+
+.social-links a i {
+	font-size: 30px;
+	color: #d7d7d7;
+	float: left;
+	margin-right: 19px;
+	overflow: hidden;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.social-links a span {
+	display: inline-block;
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: white;
+	padding-top: 10px;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.social-links a:hover i {
+	color: #52c6ca;
+}
+
+.pagination,.page-item {
+   margin-right: 0;
+   margin-bottom: 0;
+}
 
 
 /*============= MEDIA QUERIES from getbootstrap page =============*/
