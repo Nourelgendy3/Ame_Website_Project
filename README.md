@@ -1,7 +1,7 @@
 # Project Title
 
 Âme is a french word that means a soul and that's what we found most suitable for an animal care website's name.  Through Âme you can adopt your pereferred pets, learn more about adoption , or even get a plan for your own pet.
-It's a bootsrap responsive website with almost every bootsrap component, grat animations, and fixed images background that make our website entertaining and more visual appealing.
+It's a bootsrap responsive website with almost every bootsrap component, great animations, and fixed images background that make our website entertaining and more visual appealing.
 
 ## Getting Started
 
