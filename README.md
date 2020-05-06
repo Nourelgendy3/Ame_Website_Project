@@ -49,6 +49,9 @@ Font Awesome --> https://fontawesome.com/
 <img width="1680" alt="screenshot2" src="https://user-images.githubusercontent.com/34196388/81196172-fe3a1900-8fbe-11ea-9683-c1e8cd377274.png">
 
 
+Jumbotron with animations
+
+<img width="1680" alt="screenshot3" src="https://user-images.githubusercontent.com/34196388/81197260-5c1b3080-8fc0-11ea-9a12-66f9accc5489.png">
 
 
 <img width="1680" alt="Screenshot1" src="https://user-images.githubusercontent.com/34196388/81195581-53295f80-8fbe-11ea-91eb-18520c8e0798.png">
