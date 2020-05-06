@@ -75,7 +75,15 @@ Accordion collapse
 
 Footer
 
-<img width="1680" alt="screenshot10" src="https://user-images.githubusercontent.com/34196388/81205971-afdf4700-8fcb-11ea-8fe5-0467a510b569.png"><img width="1680" alt="screenshot11" src="https://user-images.githubusercontent.com/34196388/81207027-38aab280-8fcd-11ea-8632-76bad86e4116.png">
+<img width="1680" alt="screenshot10" src="https://user-images.githubusercontent.com/34196388/81205971-afdf4700-8fcb-11ea-8fe5-0467a510b569.png">
+
+Send your adoption request button
+<img width="1680" alt="screenshot11" src="https://user-images.githubusercontent.com/34196388/81207027-38aab280-8fcd-11ea-8632-76bad86e4116.png">
+<img width="554" alt="screenshot12" src="https://user-images.githubusercontent.com/34196388/81207837-7eb44600-8fce-11ea-8096-01b72f7c01b1.png">
+
+Get more adoption tips button
+
+<img width="1680" alt="screenshot13" src="https://user-images.githubusercontent.com/34196388/81208495-6db80480-8fcf-11ea-9795-6e525f5c273d.png">
 
 
 
