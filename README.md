@@ -73,6 +73,10 @@ Accordion collapse
 <img width="1680" alt="screenshot9" src="https://user-images.githubusercontent.com/34196388/81204468-86252080-8fc9-11ea-81b3-d5a657dd7d0e.png">
 
 
+Footer
+
+<img width="1680" alt="screenshot10" src="https://user-images.githubusercontent.com/34196388/81205971-afdf4700-8fcb-11ea-8fe5-0467a510b569.png"><img width="1680" alt="screenshot11" src="https://user-images.githubusercontent.com/34196388/81207027-38aab280-8fcd-11ea-8632-76bad86e4116.png">
+
 
 
 
