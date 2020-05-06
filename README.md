@@ -43,5 +43,7 @@ Font Awesome --> https://fontawesome.com/
 * [CSS]
 * [Bootstrap](https://getbootstrap.com/)
 
+## Screenshots
+![alt text](file:///Users/nourelgendy/Desktop/UI%20screenshots/screenshot2.png)
 
 
