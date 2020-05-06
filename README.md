@@ -60,9 +60,12 @@ Jumbotron with animations
  <img width="1680" alt="screenshot4" src="https://user-images.githubusercontent.com/34196388/81198113-67bb2700-8fc1-11ea-83b4-4bfd163782ec.png">
 
  
- Light box image gallery
+ Light box photo gallery
  
- <img width="996" alt="screenshot5" src="https://user-images.githubusercontent.com/34196388/81199116-8968de00-8fc2-11ea-9186-302bbca15a61.png">
+ <img width="996" alt="screenshot5" src="https://user-images.githubusercontent.com/34196388/81199116-8968de00-8fc2-11ea-9186-302bbca15a61.png"><img width="1680" alt="screenshot15" src="https://user-images.githubusercontent.com/34196388/81228468-66542380-8fee-11ea-95d3-809a350b8957.png">
+
+
+ 
 
  Carousel, Cards, Icons, Tooltips
  
