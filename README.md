@@ -52,7 +52,7 @@ Home page
 
 Jumbotron with animations
 
-<img width="1680" alt="screenshot3" src="https://user-images.githubusercontent.com/34196388/81197611-c7fd9900-8fc0-11ea-933c-68d4485a8125.png">
+<img width="1680" alt="screenshot3" src="https://user-images.githubusercontent.com/34196388/81197611-c7fd9900-8fc0-11ea-933c-68d4485a8125.png"> | <img width="1680" alt="screenshot6" src="https://user-images.githubusercontent.com/34196388/81199561-190e8c80-8fc3-11ea-9ec3-0931b59b0984.png">
  
  
  Fixed background image
