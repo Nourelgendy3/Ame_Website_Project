@@ -66,7 +66,8 @@ Jumbotron with animations
 
  Carousel, Cards, Icons, Tooltips
  
-<img width="1680" alt="screenshot7" src="https://user-images.githubusercontent.com/34196388/81202164-7ce68480-8fc6-11ea-9452-ef26ed948929.png"> [screenshot8.zip](https://github.com/Nourelgendy3/Ame_Website_Project/files/4587957/screenshot8.zip)
+<img width="1680" alt="screenshot7" src="https://user-images.githubusercontent.com/34196388/81202164-7ce68480-8fc6-11ea-9452-ef26ed948929.png"><img width="1252" alt="screenshot8" src="https://user-images.githubusercontent.com/34196388/81202712-45c4a300-8fc7-11ea-994f-8301d7cb6f06.png">
+
 
 
 
