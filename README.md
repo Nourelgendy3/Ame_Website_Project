@@ -92,6 +92,11 @@ Get more adoption tips button
 
 Reviews page
 
+
+
+<img width="1680" alt="screenshot14" src="https://user-images.githubusercontent.com/34196388/81209235-8c6acb00-8fd0-11ea-8867-ac4c1c32e1c7.png">
+
+
 <img width="1680" alt="Screenshot1" src="https://user-images.githubusercontent.com/34196388/81195581-53295f80-8fbe-11ea-91eb-18520c8e0798.png">
 
 
