@@ -5,13 +5,11 @@ It's a bootsrap responsive website with almost every bootsrap component, great a
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### CDNs
 
-What things you need to install the software and how to install them
 
-```
 1)Bootstrap JS --> https://getbootstrap.com/docs/4.3/getting-started/introduction/ 
 
 2)Bootstrap CSS --> https://getbootstrap.com/docs/4.3/getting-started/introduction/ 
