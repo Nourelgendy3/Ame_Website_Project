@@ -45,6 +45,7 @@ Font Awesome --> https://fontawesome.com/
 
 ## Screenshots
 
+Home page
 
 <img width="1680" alt="screenshot2" src="https://user-images.githubusercontent.com/34196388/81196172-fe3a1900-8fbe-11ea-9683-c1e8cd377274.png">
 
@@ -59,7 +60,14 @@ Jumbotron with animations
  <img width="1680" alt="screenshot4" src="https://user-images.githubusercontent.com/34196388/81198113-67bb2700-8fc1-11ea-83b4-4bfd163782ec.png">
 
  
+ Light box image gallery
+ 
+ <img width="996" alt="screenshot5" src="https://user-images.githubusercontent.com/34196388/81199116-8968de00-8fc2-11ea-9186-302bbca15a61.png">
 
+ 
+ 
+
+Reviews page
 
 <img width="1680" alt="Screenshot1" src="https://user-images.githubusercontent.com/34196388/81195581-53295f80-8fbe-11ea-91eb-18520c8e0798.png">
 
