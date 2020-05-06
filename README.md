@@ -45,5 +45,7 @@ Font Awesome --> https://fontawesome.com/
 
 ## Screenshots
 
+![](file:///Users/nourelgendy/Desktop/UI%20screenshots/screenshot2.png)
+
 
 
