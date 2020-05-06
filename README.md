@@ -52,7 +52,13 @@ Font Awesome --> https://fontawesome.com/
 Jumbotron with animations
 
 <img width="1680" alt="screenshot3" src="https://user-images.githubusercontent.com/34196388/81197611-c7fd9900-8fc0-11ea-933c-68d4485a8125.png">
+ 
+ 
+ Fixed background image
+ 
+ <img width="1680" alt="screenshot4" src="https://user-images.githubusercontent.com/34196388/81198113-67bb2700-8fc1-11ea-83b4-4bfd163782ec.png">
 
+ 
 
 
 <img width="1680" alt="Screenshot1" src="https://user-images.githubusercontent.com/34196388/81195581-53295f80-8fbe-11ea-91eb-18520c8e0798.png">
