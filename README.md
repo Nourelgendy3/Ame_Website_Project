@@ -68,6 +68,11 @@ Jumbotron with animations
  
 <img width="1680" alt="screenshot7" src="https://user-images.githubusercontent.com/34196388/81202164-7ce68480-8fc6-11ea-9452-ef26ed948929.png"><img width="1252" alt="screenshot8" src="https://user-images.githubusercontent.com/34196388/81202712-45c4a300-8fc7-11ea-994f-8301d7cb6f06.png">
 
+Accordion collapse 
+
+<img width="1680" alt="screenshot9" src="https://user-images.githubusercontent.com/34196388/81204468-86252080-8fc9-11ea-81b3-d5a657dd7d0e.png">
+
+
 
 
 
