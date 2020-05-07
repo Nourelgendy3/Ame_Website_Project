@@ -329,24 +329,11 @@ ul.social li a {
 ul.social li a:hover {
    color: #505962;
 }
-.owl-nav {
-  font-weight: 900;
-   font-size: x-large;
-   position: center;
-   display: inline-block;
-   padding: 2rem;
-  
-}
+
 .topScroll {
    display: none!important;
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon{
-   color:#505962;
-   visibility: visible;
-   background-color: black;
-   position:fixed;
-}
 
 /*============= ALERTS =============*/
 
