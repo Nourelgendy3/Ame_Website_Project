@@ -65,9 +65,12 @@ Jumbotron with animations
 
  
 
- Carousel, Cards, Icons, Tooltips
+ Carousel, Cards, Icons, Tooltips,
  
 <img width="1680" alt="screenshot7" src="https://user-images.githubusercontent.com/34196388/81202164-7ce68480-8fc6-11ea-9452-ef26ed948929.png"><img width="1252" alt="screenshot8" src="https://user-images.githubusercontent.com/34196388/81202712-45c4a300-8fc7-11ea-994f-8301d7cb6f06.png">
+
+Badge
+<img width="376" alt="screenshot16" src="https://user-images.githubusercontent.com/34196388/81353410-45143580-90c9-11ea-8875-8d3e7e5579ce.png">
 
 Accordion collapse 
 
