@@ -129,14 +129,21 @@ $(document).ready(function () {
 
 
 /*========== MEET THE TEAM CAROUSEL ==========*/
-$(document).ready(function(){ //when document(DOM) loads completely
-    $('#team-carousel').owlCarousel({ //owlCarousel settings
-        autoplay: true, //set to false to turn off autoplay and only use nav
-        autoplayHoverPause: true, //set to false to prevent pausing on hover
-        loop: true, //set to false to stop carousel after all slides shown
+$(document).ready(function() {
+    $("#team-carousel").owlCarousel({
+        loop: true,
+        margin:10,
+        nav: true,
+        responsiveClass:true,
+        slideSpeed : 500,
+        paginationSpeed : 1000,
+        rewindSpeed : 1000,
+        singleItem: true,
+         autoPlay : true,
+        autoplayHoverPause: true, 
+        loop: true, 
         autoplayTimeout: 8000, //time between transitions
         smartSpeed: 1200, //transition speed
-        dotsSpeed: 1000, //transition speed when using dots/buttons
         responsive : { //set number of items shown per screen width
             0 : {
                 items: 1 //0px width and up display 1 item
@@ -204,5 +211,7 @@ $(function () { // a self calling function
   onScrollInit($('.os-animation')); //function call with only items
   onScrollInit($('.staggered-animation'), $('.staggered-animation-container')); //function call with items and trigger
 });
+ 
+
 
 
